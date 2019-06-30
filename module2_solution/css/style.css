@@ -1,0 +1,163 @@
+* {
+	box-sizing: border-box;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+
+}
+
+body {
+	margin: 0px;
+}
+
+
+
+#box {
+  padding-left: 10px;
+  background-color: gray;
+ 
+  
+  border: 3px solid black;
+  margin-top: 50px;
+  float: left;
+  margin: 25px;
+  position: relative;
+  box-sizing: border-box;
+
+
+
+}
+
+#box1 {
+  padding-left: 10px;
+  background-color: gray;
+
+  border: 3px solid black;
+  margin-top: 50px;
+  float: left;
+  margin: 25px;
+  position: relative;
+  box-sizing: border-box;
+
+
+}
+
+#box2 {
+  padding-left: 10px;
+  background-color: gray;
+  border: 3px solid black;
+  margin-top: 50px;
+  float: left;
+  margin: 25px;
+  position: relative;
+  box-sizing: border-box;
+  
+
+}
+
+
+h1 {
+  margin-bottom: 60px;
+  text-align: center;
+}
+
+#beef {
+	text-align: center;
+	width: 40%;
+	border: 2px solid black;
+	margin-top: 0px;
+	border-top: none;
+	border-right: none;
+	background-color: red;
+	color: white;
+	position: absolute;
+	right: 0;
+	top: 0;
+    word-wrap: break-word;
+	
+}
+
+#chicken {
+	text-align: center;
+	width: 40%;
+	border: 2px solid black;
+	margin-top: 0px;
+	border-top: none;
+	border-right: none;
+	background-color: pink;
+	color: black;
+	position: absolute;
+	right: 0;
+	top: 0;
+	word-wrap: break-word;
+
+
+
+}
+
+#sushi {
+	text-align: center;
+	width: 40%;
+	border: 2px solid black;
+	margin-top: 0px;
+	border-top: none;
+	border-right: none;
+	background-color: #DAA520;
+	color: black;
+	position: absolute;
+	right: 0;
+	top: 0;
+    word-wrap: break-word;
+
+}
+
+#p1 {
+margin-top: 30px;
+word-wrap: break-word;
+padding: 10px;
+
+}
+
+@media (min-width: 992px) and (max-width: 2000px) {
+  #box {
+    width: 28%;
+    float: left;
+  }
+   #box2 {
+    width: 28%;
+    float: left;
+  }
+   #box1 {
+    width: 28%;
+    float: left;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  #box {
+    width: 42%;
+    float: left;
+  }
+  #box2 {
+    width: 42%;
+    float: left;
+  }
+  #box1 {
+    width: 91%;
+    float: left;
+  }
+}
+
+
+@media (min-width: 1px) and (max-width: 767px) {
+  #box {
+    width: 90%;
+    
+  }
+  #box2 {
+    width: 90%;
+    
+  }
+  #box1 {
+    width: 90%;
+    
+  }
+}
