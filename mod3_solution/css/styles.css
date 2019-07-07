@@ -1,0 +1,77 @@
+body {
+  
+  color: #fff;
+  background-color: black;
+  font-family: 'Oxygen', sans-serif;
+}
+
+hr { 
+	border-top: 3px solid black;
+}
+
+h2 {
+	font-family:'Oxygen', sans-serif;
+}
+
+#header-nav {
+	background-color: #f6b319;
+	border-radius: 0;
+	border: 0;
+}
+
+.navbar-brand {
+	padding-top: 60px;
+	padding-bottom: 60px;
+
+}
+
+.navbar-brand h1 {
+	font-family: 'Oxygen', sans-serif;
+	color: black;
+	font-size: 1.8em;
+	font-weight: bold;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	line-height: 0.2;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+	text-decoration: none;
+}
+
+#nav-list {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding-top: 10px;
+    padding-bottom: 10px;
+	background-color: #A52A2A;
+	border-top-style: solid;
+	border-top-color: black;
+	border-radius: 0;
+}
+
+#nav-list a {
+	color: black;
+	text-align: center;
+	font-weight: bold;
+
+}
+
+#nav-list a:hover {
+	background-color: grey;
+}
+
+.main-section {
+	background-color: #f6b319;
+	color: black;
+	font-family: 'Oxygen', sans-serif;
+}
+
+#main-section-title {
+	font-weight: bold;
+}
+
+@media (max-width: 767px) {
+
+	}
+}
